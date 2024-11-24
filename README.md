@@ -1,13 +1,51 @@
 # SystemEnhancer
 
+<div align="center">
+
+![SystemEnhancer Logo](assets/images/logo.png)
+
 A powerful Windows system optimization and privacy enhancement tool developed to improve system performance, protect user privacy, and provide advanced system management capabilities.
 
-![Platform](https://img.shields.io/badge/platform-Windows-brightgreen.svg)
-![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.5.2-orange.svg)
+[![Platform](https://img.shields.io/badge/platform-Windows-brightgreen.svg)](https://github.com/yourusername/SystemEnhancer)
+[![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.5.2-orange.svg)](https://github.com/yourusername/SystemEnhancer)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-purple.svg)](https://github.com/yourusername/SystemEnhancer/releases)
+
+[Features](#-features) • [Installation](#️-installation) • [Usage](#-usage-guidelines) • [Support](#-support)
+
+</div>
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Main Dashboard
+![Main Dashboard](assets/images/dashboard.png)
+*Powerful and intuitive main dashboard interface*
+
+### System Optimization
+![System Optimization](assets/images/optimization.png)
+*Advanced system optimization features*
+
+### Privacy Protection
+![Privacy Protection](assets/images/privacy.png)
+*Comprehensive privacy protection settings*
+
+### Performance Monitoring
+![Performance Monitoring](assets/images/monitoring.png)
+*Real-time system performance monitoring*
+
+</div>
 
 ## 🚀 Features
 
+<div align="center">
+
 ### System Optimization
+<img src="assets/images/optimization-icon.png" width="64" height="64" alt="Optimization Icon">
+
+</div>
+
 - Advanced Windows Registry optimization
 - System service management and optimization
 - Memory management and performance enhancement
@@ -15,14 +53,26 @@ A powerful Windows system optimization and privacy enhancement tool developed to
 - Disk cleanup and optimization
 - Network performance tuning
 
+<div align="center">
+
 ### Privacy Protection
+<img src="assets/images/privacy-icon.png" width="64" height="64" alt="Privacy Icon">
+
+</div>
+
 - Windows telemetry control
 - Privacy settings management
 - System tracking prevention
 - Advanced security features
 - Network monitoring and control
 
+<div align="center">
+
 ### System Management
+<img src="assets/images/management-icon.png" width="64" height="64" alt="Management Icon">
+
+</div>
+
 - Detailed system information display
 - Network adapter management
 - Process and service monitoring
@@ -30,7 +80,13 @@ A powerful Windows system optimization and privacy enhancement tool developed to
 - System restore point creation
 - Custom command integration
 
+<div align="center">
+
 ### Performance Monitoring
+<img src="assets/images/monitoring-icon.png" width="64" height="64" alt="Monitoring Icon">
+
+</div>
+
 - Real-time system performance monitoring
 - Network speed monitoring
 - Resource usage tracking
@@ -116,24 +172,48 @@ A powerful Windows system optimization and privacy enhancement tool developed to
 
 ## 🎯 Usage Guidelines
 
+### Quick Start Guide
+
+<div align="center">
+
+![Quick Start](assets/images/quickstart.gif)
+*Quick start demonstration*
+
+</div>
+
 1. **System Optimization**
-   - Run as administrator
-   - Create system restore point
-   - Select desired optimizations
-   - Apply changes
-   - Restart when prompted
+   ```
+   ✨ Run as administrator
+   📝 Create system restore point
+   🎯 Select desired optimizations
+   ✅ Apply changes
+   🔄 Restart when prompted
+   ```
 
 2. **Privacy Protection**
-   - Review current settings
-   - Select privacy options
-   - Apply protection measures
-   - Monitor system behavior
+   ```
+   🔍 Review current settings
+   🛡️ Select privacy options
+   ⚡ Apply protection measures
+   📊 Monitor system behavior
+   ```
 
 3. **Network Management**
-   - Configure network adapters
-   - Monitor network performance
-   - Optimize network settings
-   - Track bandwidth usage
+   ```
+   🌐 Configure network adapters
+   📈 Monitor network performance
+   ⚙️ Optimize network settings
+   📊 Track bandwidth usage
+   ```
+
+## 📊 Performance Improvements
+
+<div align="center">
+
+![Performance Chart](assets/images/performance-chart.png)
+*Actual performance improvements after optimization*
+
+</div>
 
 ## ⚠️ Important Notes
 
