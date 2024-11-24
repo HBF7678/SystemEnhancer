@@ -39,24 +39,152 @@ A powerful Windows system optimization and privacy enhancement tool developed to
 
 ## 🛠️ Requirements
 
-- Windows 7/8/10/11
+### System Requirements
+- Operating System: Windows 7/8/10/11 (64-bit recommended)
+- Processor: 1 GHz or faster
+- Memory: 2GB RAM minimum (4GB recommended)
+- Storage: 100MB free disk space
+- Display: 1024x768 or higher resolution
+- Internet: Required for updates and some features
+
+### Software Requirements
 - .NET Framework 4.5.2 or higher
 - Administrator privileges
-- Minimum 2GB RAM
-- 100MB free disk space
+- Visual Studio 2019 or later (for building from source)
 
 ## ⚙️ Installation
 
-1. Download the latest release
-2. Extract the downloaded archive
-3. Run `SystemEnhancer.exe` as administrator
+### Method 1: Installing from Release (Recommended)
 
-## 🔧 Building from Source
+1. Download the latest release:
+   - Visit our [Releases page](https://github.com/yourusername/SystemEnhancer/releases)
+   - Download `SystemEnhancer-vX.X.X.zip` (where X.X.X is the version number)
 
-1. Clone the repository
-2. Open `SystemEnhancer.sln` in Visual Studio 2019 or later
-3. Restore NuGet packages
-4. Build the solution in Release configuration
+2. Prepare for Installation:
+   - Right-click the downloaded ZIP file
+   - Select "Properties"
+   - Check "Unblock" if present
+   - Click "Apply" and "OK"
+
+3. Extract the Archive:
+   - Right-click the ZIP file
+   - Select "Extract All..."
+   - Choose your desired location (e.g., `C:\Program Files\SystemEnhancer`)
+   - Click "Extract"
+
+4. First Run Setup:
+   - Navigate to the extracted folder
+   - Right-click `SystemEnhancer.exe`
+   - Select "Run as administrator"
+   - Accept any Windows security prompts
+   - Complete the initial setup wizard if present
+
+### Method 2: Building from Source
+
+1. Clone the Repository:
+   ```bash
+   git clone https://github.com/yourusername/SystemEnhancer.git
+   cd SystemEnhancer
+   ```
+
+2. Prepare Development Environment:
+   - Install Visual Studio 2019 or later
+   - Ensure .NET Desktop Development workload is installed
+   - Install required Visual Studio extensions:
+     * .NET Framework SDK
+     * Windows SDK
+
+3. Open and Configure Project:
+   - Launch Visual Studio as Administrator
+   - Open `SystemEnhancer.sln`
+   - Right-click Solution in Solution Explorer
+   - Select "Restore NuGet Packages"
+   - Wait for package restoration to complete
+
+4. Build the Project:
+   - Set Build Configuration to "Release"
+   - Select target platform (x64 recommended)
+   - Build Solution (F6 or Ctrl+Shift+B)
+   - Check Output window for any errors
+
+5. Run the Application:
+   - Navigate to `bin/Release` folder
+   - Right-click `SystemEnhancer.exe`
+   - Run as Administrator
+
+## 🎯 Running the Application
+
+### First-Time Setup
+
+1. Initial Configuration:
+   - Launch `SystemEnhancer.exe` as Administrator
+   - Complete the initial system scan
+   - Review and accept the recommended settings
+   - Create a system restore point when prompted
+
+2. Configure Your Preferences:
+   ```
+   Settings → Preferences:
+   - Choose your optimization level
+   - Select startup behavior
+   - Configure backup settings
+   - Set update preferences
+   ```
+
+3. Verify System Compatibility:
+   - Run the built-in compatibility checker
+   - Review any warnings or recommendations
+   - Install missing prerequisites if needed
+
+### Regular Usage
+
+1. Basic Optimization:
+   ```
+   Home → Quick Optimize:
+   - Select optimization categories
+   - Review proposed changes
+   - Apply optimizations
+   - Restart if required
+   ```
+
+2. Advanced Features:
+   ```
+   Tools → Advanced:
+   - Registry Optimization
+   - Service Configuration
+   - Privacy Settings
+   - Network Optimization
+   ```
+
+3. Monitoring System Health:
+   ```
+   Dashboard → Monitoring:
+   - View real-time performance
+   - Check system resources
+   - Monitor network activity
+   - Track optimization impact
+   ```
+
+### Troubleshooting
+
+If you encounter any issues:
+
+1. Check Logs:
+   - Open Settings → Logs
+   - Review recent activity
+   - Check for error messages
+
+2. Common Solutions:
+   - Run as Administrator
+   - Verify .NET Framework version
+   - Check Windows compatibility
+   - Disable antivirus temporarily
+   - Create new restore point
+
+3. Getting Help:
+   - Visit our [Documentation](https://github.com/yourusername/SystemEnhancer/wiki)
+   - Check [Common Issues](https://github.com/yourusername/SystemEnhancer/wiki/Common-Issues)
+   - Submit an [Issue](https://github.com/yourusername/SystemEnhancer/issues)
 
 ## 👥 Authors
 
@@ -113,27 +241,6 @@ A powerful Windows system optimization and privacy enhancement tool developed to
 - Backup creation before changes
 - System restore point integration
 - Privacy-focused design
-
-## 🎯 Usage Guidelines
-
-1. **System Optimization**
-   - Run as administrator
-   - Create system restore point
-   - Select desired optimizations
-   - Apply changes
-   - Restart when prompted
-
-2. **Privacy Protection**
-   - Review current settings
-   - Select privacy options
-   - Apply protection measures
-   - Monitor system behavior
-
-3. **Network Management**
-   - Configure network adapters
-   - Monitor network performance
-   - Optimize network settings
-   - Track bandwidth usage
 
 ## ⚠️ Important Notes
 
